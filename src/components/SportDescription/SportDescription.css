@@ -1,0 +1,79 @@
+.sport-description {
+  background-color: #0e0a2b;
+  padding-bottom: 50px;
+}
+.background-inner {
+  background-color: #3a42ff;
+  border-radius: 10px;
+  margin: 30px 0;
+  padding: 0 35px;
+}
+
+.right-side img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.left-side h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 44px;
+  margin-bottom: 25px;
+}
+.left-side p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+}
+
+.paragraph-style p {
+  color: #c6c6c6;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 15px 0;
+}
+.social-icons img {
+  width: 55px;
+  margin: 0 10px;
+}
+
+/* Made responsive applying media queries */
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive-class {
+    display: column;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .responsive-class {
+    display: column;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .responsive-class {
+    display: column;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+}
